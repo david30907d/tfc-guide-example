@@ -9,9 +9,9 @@ terraform {
       name = "github_action"
     }
   }
-	required_providers {
-		google = {
-	    version = "~> 4.51.0"
-		}
+  required_providers {
+    google = {
+      version = "~> 4.51.0"
+    }
   }
 }
