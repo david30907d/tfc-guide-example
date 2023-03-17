@@ -6,7 +6,7 @@ terraform {
     organization = "example-org-d63b9a"
 
     workspaces {
-      name = "github_action"
+      name = "tfc-guide-example"
     }
   }
   required_providers {
