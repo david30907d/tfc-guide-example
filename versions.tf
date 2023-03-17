@@ -2,9 +2,16 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-	required_providers {
-		google = {
-	    version = "~> 4.51.0"
-		}
+  cloud {
+    organization = "example-org-d63b9a"
+
+    workspaces {
+      name = "github_action"
+    }
+  }
+  required_providers {
+    google = {
+      version = "~> 4.51.0"
+    }
   }
 }
